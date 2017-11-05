@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pages\InputPage.cs" />
+    <Compile Remove="Pages\Page1.cs" />
+    <Compile Remove="Pages\Page2.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EasyConsole" Version="1.1.0" />
+  </ItemGroup>
+
+</Project>
